@@ -2,7 +2,7 @@ Documentation
 =============
 
 Readability is a primary focus for Python developers, in both project
-and code documentation. Following some simple best practices can save
+and code documentation. Following some good simple practices can save
 both you and others a lot of time.
 
 Project Documentation
@@ -113,7 +113,7 @@ Guide").
 Commenting Sections of Code
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*Do not use triple-quote strings to comment code*. This is not a good
+*Do not use triple-quote strings to comment code.* This is not a good
 practice, because line-oriented command-line tools such as grep will
 not be aware that the commented code is inactive. It is better to add
 hashes at the proper indentation level for every commented line. Your
